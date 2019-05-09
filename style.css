@@ -1,0 +1,64 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+h3
+{
+   font-style: bold;
+   letter-spacing:2px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+    color: black;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  margin: 10px;
+  text-decoration: none;
+}
+.fab {
+   padding: 10px 10px;
+}
+.fas{
+    color: orange
+}
+img
+{
+    height:400px;
+    width: 300px;
+   border: 2px solid grey;
+}
+.img-text{
+display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;  
+  flex: 1;
+  margin: 2px;
+
+}
+#btn{
+    background-color: #ed4b74;
+    color: white;
+    padding: 15px 50px;
+    margin: 5px;
+    border: none;
+}
+hr{
+    color: solid gray;
+}
+#main-p{
+     letter-spacing:2px;
+}
